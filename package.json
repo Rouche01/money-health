@@ -8,12 +8,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mono.co/connect.js": "^0.2.2",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
     "eslint": "8.4.1",
     "eslint-config-next": "12.0.7"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
